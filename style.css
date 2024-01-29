@@ -3,7 +3,8 @@
   margin: 0;
 }
 
-dialog > div:last-child {
+dialog > div:last-child,
+dialog > div:nth-child(5) {
   display: flex;
   justify-content: space-between;
   padding: 0 15px;
@@ -14,7 +15,6 @@ dialog {
 }
 
 dialog > div:nth-child(1) {
-  /* border: solid; */
   margin-top: 20px;
 }
 

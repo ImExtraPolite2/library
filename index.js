@@ -1,1 +1,13 @@
-console.log('hello');
+const myLibrary = [];
+
+function Book(title, author, numOfPages, read) {
+  this.title = title;
+  this.author = author;
+  this.numOfPages = numOfPages;
+  this.read = read;
+}
+
+
+function addBookToLibrary() {
+  const addBook = document.querySelector('add-new-book');
+}

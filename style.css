@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+dialog > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+dialog {
+  margin: auto;
+}
+
+dialog > div:nth-child(1) {
+  /* border: solid; */
+  margin-top: 20px;
+}
+
+#exit {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

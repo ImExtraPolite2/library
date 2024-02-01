@@ -45,6 +45,9 @@ function addBookToLibrary() {
     eachBook.appendChild(postTitle);
     eachBook.appendChild(postAuthor);
     eachBook.appendChild(postNumOfPages);
+    postTitle.textContent = getTitle.value;
+    postAuthor.textContent = getAuthor.value;
+    postNumOfPages.textContent = getNumOfPages.value;
 
     closeModal();
   })
